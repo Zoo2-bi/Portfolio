@@ -1,8 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import sang from "..sang.png";
-import All from "..all.jpg";
+import sang from "../assets/sang.png";
+import All from "../assets/all.jpg";
 
 export default function ActivitySection() {
   return (
