@@ -1,13 +1,12 @@
-"use client"
+"use client";
 
-import Image from "next/image"
-import { motion } from "framer-motion"
-import moon from "@/assets/moon.png"
+import Image from "next/image";
+import { motion } from "framer-motion";
+import moon from "../assets/moon.png";
 
 export default function Hero() {
   return (
     <section className="relative h-screen w-full bg-[#E9E9E9] overflow-hidden">
-
       {/* corner frame */}
       <div className="absolute left-10 top-10 h-10 w-10 border-l-4 border-t-4 border-gray-400" />
       <div className="absolute right-10 top-10 h-10 w-10 border-r-4 border-t-4 border-gray-400" />
@@ -75,7 +74,6 @@ export default function Hero() {
           서로 믿고 이야기할 수 있는 사람이 가장 큰 자산이라 생각합니다.
         </p>
       </div>
-
     </section>
-  )
+  );
 }
